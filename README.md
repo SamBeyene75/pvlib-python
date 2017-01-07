@@ -6,6 +6,7 @@ pvlib-python
 [![Coverage Status](https://img.shields.io/coveralls/pvlib/pvlib-python.svg)](https://coveralls.io/r/pvlib/pvlib-python)
 [![Documentation Status](https://readthedocs.org/projects/pvlib-python/badge/?version=latest)](http://pvlib-python.readthedocs.org/en/latest/)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.50141.svg)](http://dx.doi.org/10.5281/zenodo.50141)
+[![Code Health](https://landscape.io/github/pvlib/pvlib-python/master/landscape.svg?style=flat)](https://landscape.io/github/pvlib/pvlib-python/master)
 
 
 PVLIB Python is a community supported tool that provides a set of
@@ -30,7 +31,7 @@ Installation
 pvlib-python releases may be installed using the ``pip`` and ``conda`` tools.
 Please see the [Installation page](http://pvlib-python.readthedocs.io/en/latest/installation.html) of the documentation for complete instructions.
 
-pvlib-python is compatible with Python versions 2.7, 3.4, 3.5
+pvlib-python is compatible with Python versions 2.7, 3.4, 3.5, 3.6
 
 
 Contributing

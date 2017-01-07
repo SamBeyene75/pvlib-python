@@ -40,12 +40,12 @@ AUTHOR = 'PVLIB Python Developers'
 MAINTAINER_EMAIL = 'holmgren@email.arizona.edu'
 URL = 'https://github.com/pvlib/pvlib-python'
 
-INSTALL_REQUIRES = ['numpy >= 1.8.2',
-                    'pandas >= 0.13.1',
+INSTALL_REQUIRES = ['numpy >= 1.9.0',
+                    'pandas >= 0.14.0',
                     'pytz',
                     'six',
                     ]
-TESTS_REQUIRE = ['nose']
+TESTS_REQUIRE = ['pytest', 'nose']
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
@@ -59,6 +59,7 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
     'Topic :: Scientific/Engineering',
 ]
 

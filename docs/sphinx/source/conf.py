@@ -29,6 +29,9 @@ class Mock(MagicMock):
 MOCK_MODULES = []
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
 
+import pandas as pd
+pd.show_versions()
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -123,6 +126,7 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+autosummary_generate = True
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -215,6 +219,10 @@ html_show_copyright = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PVLIB_Pythondoc'
+
+# A workaround for the responsive tables always having annoying scrollbars.
+def setup(app):
+    app.add_stylesheet("no_scrollbars.css")
 
 
 # -- Options for LaTeX output ---------------------------------------------
